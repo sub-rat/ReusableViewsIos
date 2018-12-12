@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A09FB2D21BF722100B9BED3 /* NSUIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A09FB2C21BF722100B9BED3 /* NSUIColor+Hex.swift */; };
 		3A5A03DA21BE23BE0052690B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A03D921BE23BE0052690B /* AppDelegate.swift */; };
 		3A5A03DC21BE23BE0052690B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A03DB21BE23BE0052690B /* ViewController.swift */; };
 		3A5A03DF21BE23BE0052690B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A03DD21BE23BE0052690B /* Main.storyboard */; };
 		3A5A03E121BE23BF0052690B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A03E021BE23BF0052690B /* Assets.xcassets */; };
 		3A5A03E421BE23BF0052690B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A03E221BE23BF0052690B /* LaunchScreen.storyboard */; };
+		3A5A03EC21BE244D0052690B /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A03EB21BE244D0052690B /* TestView.xib */; };
+		3A5A03EE21BE352E0052690B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A03ED21BE352E0052690B /* TestView.swift */; };
+		3ACA3E4421BE6E1700EFC1BD /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA3E4321BE6E1700EFC1BD /* CustomView.xib */; };
+		3ACA3E4621BE722E00EFC1BD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA3E4521BE722E00EFC1BD /* CustomView.swift */; };
+		E6F9A9775031A99098AE4422 /* Pods_ReusableViewsIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0FF1B5CB2108C803EA81F5 /* Pods_ReusableViewsIos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A09FB2C21BF722100B9BED3 /* NSUIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUIColor+Hex.swift"; sourceTree = "<group>"; };
 		3A5A03D621BE23BE0052690B /* ReusableViewsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableViewsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5A03D921BE23BE0052690B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A5A03DB21BE23BE0052690B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		3A5A03E021BE23BF0052690B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5A03E321BE23BF0052690B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5A03E521BE23BF0052690B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5A03EB21BE244D0052690B /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		3A5A03ED21BE352E0052690B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		3ACA3E4321BE6E1700EFC1BD /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		3ACA3E4521BE722E00EFC1BD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4EA3A3C8F0F8676BA916EA4B /* Pods-ReusableViewsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableViewsIos.debug.xcconfig"; path = "Target Support Files/Pods-ReusableViewsIos/Pods-ReusableViewsIos.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0FF1B5CB2108C803EA81F5 /* Pods_ReusableViewsIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableViewsIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CB22C7375E1F3BB5F367CE /* Pods-ReusableViewsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableViewsIos.release.xcconfig"; path = "Target Support Files/Pods-ReusableViewsIos/Pods-ReusableViewsIos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F9A9775031A99098AE4422 /* Pods_ReusableViewsIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A4CC7934547B5D2D75D24D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0FF1B5CB2108C803EA81F5 /* Pods_ReusableViewsIos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A5A03CD21BE23BE0052690B = {
 			isa = PBXGroup;
 			children = (
 				3A5A03D821BE23BE0052690B /* ReusableViewsIos */,
 				3A5A03D721BE23BE0052690B /* Products */,
+				AA02E1692DFC89D7BB2F1BD6 /* Pods */,
+				2A4CC7934547B5D2D75D24D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +85,22 @@
 				3A5A03E021BE23BF0052690B /* Assets.xcassets */,
 				3A5A03E221BE23BF0052690B /* LaunchScreen.storyboard */,
 				3A5A03E521BE23BF0052690B /* Info.plist */,
+				3A5A03EB21BE244D0052690B /* TestView.xib */,
+				3A5A03ED21BE352E0052690B /* TestView.swift */,
+				3ACA3E4321BE6E1700EFC1BD /* CustomView.xib */,
+				3ACA3E4521BE722E00EFC1BD /* CustomView.swift */,
+				3A09FB2C21BF722100B9BED3 /* NSUIColor+Hex.swift */,
 			);
 			path = ReusableViewsIos;
+			sourceTree = "<group>";
+		};
+		AA02E1692DFC89D7BB2F1BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA3A3C8F0F8676BA916EA4B /* Pods-ReusableViewsIos.debug.xcconfig */,
+				F8CB22C7375E1F3BB5F367CE /* Pods-ReusableViewsIos.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A5A03E821BE23BF0052690B /* Build configuration list for PBXNativeTarget "ReusableViewsIos" */;
 			buildPhases = (
+				564FA9164F9215090EE351B9 /* [CP] Check Pods Manifest.lock */,
 				3A5A03D221BE23BE0052690B /* Sources */,
 				3A5A03D321BE23BE0052690B /* Frameworks */,
 				3A5A03D421BE23BE0052690B /* Resources */,
+				D66564699B49524A97170B1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5A03EC21BE244D0052690B /* TestView.xib in Resources */,
+				3ACA3E4421BE6E1700EFC1BD /* CustomView.xib in Resources */,
 				3A5A03E421BE23BF0052690B /* LaunchScreen.storyboard in Resources */,
 				3A5A03E121BE23BF0052690B /* Assets.xcassets in Resources */,
 				3A5A03DF21BE23BE0052690B /* Main.storyboard in Resources */,
@@ -130,12 +173,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		564FA9164F9215090EE351B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReusableViewsIos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66564699B49524A97170B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReusableViewsIos/Pods-ReusableViewsIos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReusableViewsIos/Pods-ReusableViewsIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A5A03D221BE23BE0052690B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5A03EE21BE352E0052690B /* TestView.swift in Sources */,
+				3ACA3E4621BE722E00EFC1BD /* CustomView.swift in Sources */,
 				3A5A03DC21BE23BE0052690B /* ViewController.swift in Sources */,
+				3A09FB2D21BF722100B9BED3 /* NSUIColor+Hex.swift in Sources */,
 				3A5A03DA21BE23BE0052690B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +373,7 @@
 		};
 		3A5A03E921BE23BF0052690B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA3A3C8F0F8676BA916EA4B /* Pods-ReusableViewsIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		3A5A03EA21BE23BF0052690B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CB22C7375E1F3BB5F367CE /* Pods-ReusableViewsIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

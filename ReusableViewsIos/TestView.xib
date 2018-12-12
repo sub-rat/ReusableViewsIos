@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestView" customModule="ReusableViewsIos" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="cPU-Di-CXi"/>
+                <outlet property="labelText" destination="gV0-YF-x6m" id="yM6-lq-Rgr"/>
+                <outlet property="labelValue" destination="tL8-B7-qS7" id="xCf-EM-o8E"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="center" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="149" height="156"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="9pY-Wx-klS">
+                    <rect key="frame" x="8" y="8" width="133" height="140"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="0" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tL8-B7-qS7">
+                            <rect key="frame" x="0.0" y="0.0" width="15.5" height="83.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="752" text="Focused SKUs per Call" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.5" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gV0-YF-x6m">
+                            <rect key="frame" x="0.0" y="83.5" width="110.5" height="56.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9pY-Wx-klS" firstAttribute="top" secondItem="aUp-T5-9pu" secondAttribute="top" constant="8" id="CPC-mf-pjE"/>
+                <constraint firstItem="aUp-T5-9pu" firstAttribute="bottom" secondItem="9pY-Wx-klS" secondAttribute="bottom" constant="8" id="OZm-A9-nsV"/>
+                <constraint firstItem="9pY-Wx-klS" firstAttribute="leading" secondItem="aUp-T5-9pu" secondAttribute="leading" constant="8" id="hP3-6X-bFQ"/>
+                <constraint firstItem="aUp-T5-9pu" firstAttribute="trailing" secondItem="9pY-Wx-klS" secondAttribute="trailing" constant="8" id="wSc-n3-fAi"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="aUp-T5-9pu"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="364" y="-143.02848575712144"/>
+        </view>
+    </objects>
+</document>
